@@ -4,6 +4,8 @@
 
 在本文中，将利用Clang-format工具结合Xcode自带文件模版、Code Snippet探索iOS代码规范实践
 
+<!-- toc -->
+
 ## Clang-format
 
 > ClangFormat describes a set of tools that are built on top of LibFormat. It can support your workflow in a variety of ways including a standalone tool and editor integrations.
@@ -110,7 +112,7 @@ __参考资料__
 
 通知、Observer、懒加载、创建单例、贝塞尔曲线等格式化代码
 
-
+<!-- endtoc -->
 
 
 
