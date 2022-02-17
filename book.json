@@ -51,7 +51,8 @@
         "tbfed-pagefooter",
         "popup",
         "hide-element",
-        "toggle-chapters"
+        "toggle-chapters",
+        "anchors"
     ],
     "pluginsConfig": {
         "disqus": {

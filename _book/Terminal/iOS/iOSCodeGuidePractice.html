@@ -65,6 +65,10 @@
                 
             
                 
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -367,7 +371,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="clang-format&#x7ED3;&#x5408;xcode-file-template&#x3001;code-snippet&#x63A2;&#x7D22;ios&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;">Clang-format&#x7ED3;&#x5408;Xcode File-template&#x3001;Code Snippet&#x63A2;&#x7D22;iOS&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;</h1>
+                                <h1 id="clang-format&#x7ED3;&#x5408;xcode-file-template&#x3001;code-snippet&#x63A2;&#x7D22;ios&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;"><a name="clang-format&#x7ED3;&#x5408;xcode-file-template&#x3001;code-snippet&#x63A2;&#x7D22;ios&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;" class="plugin-anchor" href="#clang-format&#x7ED3;&#x5408;xcode-file-template&#x3001;code-snippet&#x63A2;&#x7D22;ios&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;"><i class="fa fa-link" aria-hidden="true"></i></a>Clang-format&#x7ED3;&#x5408;Xcode File-template&#x3001;Code Snippet&#x63A2;&#x7D22;iOS&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x5B9E;&#x8DF5;</h1>
 <blockquote>
 <p>&#x4EE3;&#x7801;&#x89C4;&#x8303;&#x662F;&#x6BCF;&#x4E00;&#x4E2A;&#x5F00;&#x53D1;&#x5C0F;&#x7EC4;&#x5728;&#x5B9E;&#x8DF5;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x75DB;&#x70B9;&#xFF0C;&#x5982;&#x4F55;&#x8BA9;&#x961F;&#x4F0D;&#x4E2D;&#x5C3D;&#x53EF;&#x80FD;&#x591A;&#x7684;&#x4EBA;&#x9075;&#x5FAA;&#x540C;&#x4E00;&#x5957;&#x4EE3;&#x7801;&#x98CE;&#x683C;&#xFF0C;&#x4EA7;&#x51FA;&#x9AD8;&#x8D28;&#x91CF;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x540C;&#x65F6;&#x80FD;&#x591F;&#x5C0A;&#x91CD;&#x6BCF;&#x4F4D;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x7F16;&#x7A0B;&#x4E60;&#x60EF;&#xFF0C;&#x4E0D;&#x589E;&#x52A0;&#x5197;&#x4F59;&#x73AF;&#x8282;&#xFF0C;&#x662F;&#x503C;&#x5F97;&#x6BCF;&#x4E2A;&#x5DE5;&#x7A0B;&#x5E08;&#x601D;&#x8003;&#x7684;&#x95EE;&#x9898;</p>
 </blockquote>
@@ -385,32 +389,32 @@
 <li><a href="#code-snippet">Code Snippet</a></li>
 </ul>
 <!-- tocstop -->
-<h2 id="clang-format">Clang-format</h2>
+<h2 id="clang-format"><a name="clang-format" class="plugin-anchor" href="#clang-format"><i class="fa fa-link" aria-hidden="true"></i></a>Clang-format</h2>
 <blockquote>
 <p>ClangFormat describes a set of tools that are built on top of LibFormat. It can support your workflow in a variety of ways including a standalone tool and editor integrations.</p>
 </blockquote>
 <p>Clang-format &#x662F;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x683C;&#x5F0F;&#x5316;&#x5DE5;&#x5177;&#xFF0C;&#x80FD;&#x591F;&#x4E3A;C/C++/Java/JavaScript/JSON/Objective-C/Protobuf/C#&#x63D0;&#x4F9B;&#x683C;&#x5F0F;&#x5316;&#x89C4;&#x5219;</p>
-<h3 id="&#x5B89;&#x88C5;clang-format">&#x5B89;&#x88C5;clang-format</h3>
+<h3 id="&#x5B89;&#x88C5;clang-format"><a name="&#x5B89;&#x88C5;clang-format" class="plugin-anchor" href="#&#x5B89;&#x88C5;clang-format"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B89;&#x88C5;clang-format</h3>
 <hr>
-<h5 id="&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;">&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;</h5>
+<h5 id="&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;"><a name="&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;" class="plugin-anchor" href="#&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x901A;&#x8FC7;homebrew&#x4E0B;&#x8F7D;</h5>
 <pre><code>brew install clang-format
-</code></pre><h5 id="&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;">&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;</h5>
+</code></pre><h5 id="&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;"><a name="&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;" class="plugin-anchor" href="#&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x67E5;&#x770B;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;</h5>
 <pre><code>clang-format --version
-</code></pre><h3 id="&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;">&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;</h3>
+</code></pre><h3 id="&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;"><a name="&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;" class="plugin-anchor" href="#&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6DFB;&#x52A0;clang-format&#x670D;&#x52A1;</h3>
 <hr>
 <p>&#x5728; <strong>&#x542F;&#x52A8;&#x53F0;</strong> &gt;&gt; <strong>&#x5176;&#x4ED6;</strong> &gt;&gt; <strong>&#x81EA;&#x52A8;&#x64CD;&#x4F5C;</strong> &#x4E2D;&#x9009;&#x62E9; <strong>&#x5FEB;&#x901F;&#x64CD;&#x4F5C;</strong></p>
 <p><img src="../../images/automator.png" width="50%" height="50%"></p>
 <p><img src="../../images/clang_shellconfig.png" width="45%" height="45%"></p>
-<h5 id="&#x811A;&#x672C;&#x4EE3;&#x7801;">&#x811A;&#x672C;&#x4EE3;&#x7801;</h5>
+<h5 id="&#x811A;&#x672C;&#x4EE3;&#x7801;"><a name="&#x811A;&#x672C;&#x4EE3;&#x7801;" class="plugin-anchor" href="#&#x811A;&#x672C;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x811A;&#x672C;&#x4EE3;&#x7801;</h5>
 <pre><code>export PATH=/usr/local/bin:$PATH
 clang-format
 </code></pre><p>&#x4FDD;&#x5B58;&#x670D;&#x52A1;&#x5E76;&#x547D;&#x540D;&#xFF0C;&#x4F8B;&#x5982;&#x4FDD;&#x5B58;&#x4E3A; <strong>Xcode-clang-format</strong>  &#xFF08;&#x5F88;&#x91CD;&#x8981;,&#x540E;&#x9762;&#x8FD8;&#x8981;&#x7528;&#xFF09;</p>
-<h3 id="clang-format&#x4F7F;&#x7528;">clang-format&#x4F7F;&#x7528;</h3>
+<h3 id="clang-format&#x4F7F;&#x7528;"><a name="clang-format&#x4F7F;&#x7528;" class="plugin-anchor" href="#clang-format&#x4F7F;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>clang-format&#x4F7F;&#x7528;</h3>
 <p>&#x5728;&#x5F53;&#x524D;&#x7528;&#x6237;&#x6839;&#x76EE;&#x5F55;<code>&#xFF5E;</code> &#x653E;&#x5165;    <code>.clang-format</code> &#x6587;&#x4EF6;</p>
 <pre><code>touch ~/.clang-format
 </code></pre><p>&#x4E0B;&#x8F7D;&#x94FE;&#x63A5; <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2Fhuipengo%2Fclang-format" target="_blank">.clang-format</a></p>
 <p>&#x5177;&#x4F53;&#x53C2;&#x6570;&#x610F;&#x4E49;&#x8BE6;&#x89C1; <a href="https://www.cnblogs.com/PaulpauL/p/5929753.html" target="_blank">clang-format&#x53C2;&#x6570;&#x8BE6;&#x89E3;</a></p>
-<h3 id="&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;">&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;</h3>
+<h3 id="&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;"><a name="&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;" class="plugin-anchor" href="#&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6DFB;&#x52A0;clang-format&#x5FEB;&#x6377;&#x952E;</h3>
 <p><strong>&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;</strong> &gt;&gt; <strong>&#x952E;&#x76D8;</strong> &gt;&gt; <strong>&#x5FEB;&#x6377;&#x952E;</strong> &gt;&gt; <strong>APP&#x5FEB;&#x6377;&#x952E;</strong> &gt;&gt; <strong>Xcode.app</strong> &#x6DFB;&#x52A0;&#x670D;&#x52A1; <strong>Xcode-clang-format</strong> &#xFF08;&#x4E4B;&#x524D;&#x4FDD;&#x5B58;&#x7684;&#x670D;&#x52A1;&#x540D;&#xFF09;&#x8BBE;&#x7F6E;&#x5FEB;&#x6377;&#x952E;  <strong>Control</strong> + <strong>I</strong> </p>
 <p><img src="../../images/clang_shortcut.png" width="40%" height="40%"></p>
 <p>&#x5FEB;&#x53BB;&#x5DE5;&#x7A0B;&#x91CC;&#x8BD5;&#x8BD5;&#x5427;</p>
@@ -419,7 +423,7 @@ clang-format
 <li><a href="https://www.jianshu.com/p/97ac40a78300" target="_blank">clang-format</a></li>
 <li><a href="https://www.cnblogs.com/PaulpauL/p/5929753.html" target="_blank">clang-format&#x5B98;&#x65B9;&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570;&#x4ECB;&#x7ECD;</a></li>
 </ol>
-<h2 id="xcode-file-template">Xcode File-template</h2>
+<h2 id="xcode-file-template"><a name="xcode-file-template" class="plugin-anchor" href="#xcode-file-template"><i class="fa fa-link" aria-hidden="true"></i></a>Xcode File-template</h2>
 <p><strong>Xcode&#x7684;&#x6587;&#x4EF6;&#x6A21;&#x677F;&#x8DEF;&#x5F84;&#x4E00;&#x822C;&#x5728;&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;</strong></p>
 <p><code>/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates</code></p>
 <p><strong>&#x6240;&#x6709;&#x7684;&#x6A21;&#x677F;&#x6587;&#x4EF6;&#x5373;&#x5B58;&#x5728;File Template/iOS/Source&#x4E2D;</strong></p>
@@ -440,7 +444,7 @@ clang-format
 <li><a href="https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/dev7fe737ce0" target="_blank">Apple&#x5B8F;&#x53C2;&#x6570;&#x6587;&#x6863;</a></li>
 <li><a href="https://www.jianshu.com/p/376f372497b5" target="_blank">Xcode&#x6A21;&#x677F;&#x548C;Code Snippet</a></li>
 </ol>
-<h2 id="code-snippet">Code Snippet</h2>
+<h2 id="code-snippet"><a name="code-snippet" class="plugin-anchor" href="#code-snippet"><i class="fa fa-link" aria-hidden="true"></i></a>Code Snippet</h2>
 <p>&#x65B0;&#x5EFA; <strong>Code Snippet</strong></p>
 <p><img src="../../images/codeSnip_create.png" width="50%" height="50%"></p>
 <p>&#x901A;&#x77E5;&#x3001;Observer&#x3001;&#x61D2;&#x52A0;&#x8F7D;&#x3001;&#x521B;&#x5EFA;&#x5355;&#x4F8B;&#x3001;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x7B49;&#x683C;&#x5F0F;&#x5316;&#x4EE3;&#x7801;</p>
@@ -491,7 +495,7 @@ clang-format
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"iOS代码规范探索实践","level":"2.1.1.1","depth":3,"next":{"title":"Android","level":"2.1.2","depth":2,"path":"Terminal/Android/README.md","ref":"Terminal/Android/README.md","articles":[]},"previous":{"title":"iOS","level":"2.1.1","depth":2,"path":"Terminal/iOS/README.md","ref":"Terminal/iOS/README.md","articles":[{"title":"iOS代码规范探索实践","level":"2.1.1.1","depth":3,"path":"Terminal/iOS/iOSCodeGuidePractice.md","ref":"Terminal/iOS/iOSCodeGuidePractice.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","multipart","pageview-count","donate","disqus","simple-page-toc","page-toc-button","github","advanced-emoji","search-pro","code","copy-code-button","chapter-fold","back-to-top-button","tbfed-pagefooter","popup","hide-element","toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy happyirick 2022","modify_label":"Post time:","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"disqus":{"useIdentifier":false,"shortName":"irick's Blog"},"github":{"url":"https://github.com/HappyiRick"},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search-pro":{},"popup":{},"multipart":{},"code":{"copyButtons":true},"donate":{"alipay":"支付宝收款的二维码URL","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"微信收款的二维码URL","wechatText":"微信打赏"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"pageview-count":{},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"irick<happyirick@gmail.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"irick's Blog","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"About Me":"https://happyirick.github.io/","irick's Blog":"https://happyirick.github.io/"}},"gitbook":"*","description":"A GitBook Blog for irick","extension":null},"file":{"path":"Terminal/iOS/iOSCodeGuidePractice.md","mtime":"2022-02-17T13:05:38.079Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-02-17T13:08:32.897Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"iOS代码规范探索实践","level":"2.1.1.1","depth":3,"next":{"title":"Android","level":"2.1.2","depth":2,"path":"Terminal/Android/README.md","ref":"Terminal/Android/README.md","articles":[]},"previous":{"title":"iOS","level":"2.1.1","depth":2,"path":"Terminal/iOS/README.md","ref":"Terminal/iOS/README.md","articles":[{"title":"iOS代码规范探索实践","level":"2.1.1.1","depth":3,"path":"Terminal/iOS/iOSCodeGuidePractice.md","ref":"Terminal/iOS/iOSCodeGuidePractice.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","multipart","pageview-count","donate","disqus","simple-page-toc","page-toc-button","github","advanced-emoji","search-pro","code","copy-code-button","chapter-fold","back-to-top-button","tbfed-pagefooter","popup","hide-element","toggle-chapters","anchors","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy happyirick 2022","modify_label":"Post time:","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"disqus":{"useIdentifier":false,"shortName":"irick's Blog"},"github":{"url":"https://github.com/HappyiRick"},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search-pro":{},"popup":{},"multipart":{},"code":{"copyButtons":true},"donate":{"alipay":"支付宝收款的二维码URL","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"微信收款的二维码URL","wechatText":"微信打赏"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"pageview-count":{},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{}},"theme":"default","author":"irick<happyirick@gmail.com>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"irick's Blog","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"About Me":"https://happyirick.github.io/","irick's Blog":"https://happyirick.github.io/"}},"gitbook":"*","description":"A GitBook Blog for irick","extension":null},"file":{"path":"Terminal/iOS/iOSCodeGuidePractice.md","mtime":"2022-02-17T13:05:38.079Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-02-17T13:33:43.195Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -554,6 +558,10 @@ clang-format
     
         
         <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
