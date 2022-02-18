@@ -3,6 +3,7 @@
     "description": "A GitBook Blog for irick",
     "extension": null,
     "generator": "site",
+    "language":"zh-hans",
     "isbn": "",
     "links": {
         "sharing": {
@@ -13,7 +14,7 @@
             "weibo": null
         },
         "sidebar": {
-            "About Me": "https://happyirick.github.io/",
+            "About me":"https://github.com/HappyiRick",
             "irick's Blog": "https://happyirick.github.io/"
         }
     },
@@ -35,10 +36,9 @@
         "-sharing",
         "-lunr", 
         "-search",
+        "-fontsettings",
         "multipart",
-        "pageview-count",
         "donate",
-        "disqus",
         "simple-page-toc",
         "page-toc-button",
         "github",
@@ -47,17 +47,17 @@
         "code",
         "copy-code-button",
         "chapter-fold",
+        "splitter",
+        "expandable-chapters",
         "back-to-top-button",
-        "tbfed-pagefooter",
-        "popup",
-        "hide-element",
+        "lightbox",
         "toggle-chapters",
-        "anchors"
+        "anchors",
+        "baidu-tongji",
+        "tbfed-pagefooter",
+        "insert-logo"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "irick's Blog"
-        },
         "simple-page-toc": {
             "maxDepth": 3,
             "skipFirstH1": true
@@ -85,10 +85,13 @@
             "modify_label": "Post time:",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
-        "hide-element": {
-            "elements": [".gitbook-link"]
+        "baidu-tongji": {
+            "token": "5370d7bf584be5cfd91dd00fcb82ba67"
+        },
+        "insert-logo":{
+            "url":"../../images/header.png",
+            "style":"background:none;min-height:196px;max-height:196px"
         }
-
     },
     "title": "irick's Blog",
     "variables": {}
