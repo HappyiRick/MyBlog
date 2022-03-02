@@ -1,4 +1,4 @@
-# Gitbook配置--开启写作之路 
+# Gitbook配置--开启写作之路 (上) 
 
 在本文中，将使用Gitbook + Github pages搭建属于自己的Blog，终端环境为zsh，设备为Macbook. 
 
@@ -36,7 +36,7 @@ nodejs环境配置完成之后，即可通过npm工具下载安装gitbook
 
 此时，可能会出现如下错误，主要是由于node版本较高导致的
 
-![middle_img_v2_1703d07e-73a1-437a-847e-807c74d61fcg](../images/gitbookConfig/middle_img_v2_1703d07e-73a1-437a-847e-807c74d61fcg.png)
+![middle_img_v2_1703d07e-73a1-437a-847e-807c74d61fcg](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020940.png)
 
 有两种解决方案
 
@@ -51,7 +51,7 @@ gitbook安装完成后，即可通过gitbook命令初始化gitbook目录
 
 > ```gitbook init```
 
-![image-20220301141106714](../images/gitbookConfig/image-20220301141106714.png)
+![image-20220301141106714](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020934.png)
 
 其中README为项目文档，SUMMARY.md为目录文档，在SUMMARY中更新目录完成后，即可直接通过init命令创建该目录中的文件
 
@@ -72,13 +72,13 @@ gitbook安装完成后，即可通过gitbook命令初始化gitbook目录
 
 上述目录创建完成后执行命令
 
-![image-20220301143602799](../images/gitbookConfig/image-20220301143602799.png)
+![image-20220301143602799](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020936.png)
 
 ### warning 
 
 在gitbook初始化过程过程中，还会出现一个问题，该问题是由于nodejs版本过高导致的，发现了吗，其实由于gitbook公开版本久未更新的缘故，还是使用老版本的配套环境更加方便。
 
-![middle_img_v2_745da2f7-e026-4878-a0ad-0d1393beffdg](../images/gitbookConfig/middle_img_v2_745da2f7-e026-4878-a0ad-0d1393beffdg.png)
+![middle_img_v2_745da2f7-e026-4878-a0ad-0d1393beffdg](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020939.png)
 
 ### 构建
 
@@ -92,11 +92,11 @@ gitbook安装完成后，即可通过gitbook命令初始化gitbook目录
 
 > ```gitbook serve```
 
-![image-20220301143856031](../images/gitbookConfig/image-20220301143856031.png)
+![image-20220301143856031](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020937.png)
 
 通过 [http://localhost:4000](http://localhost:4000) 即可访问新建的gitbook电子书
 
-![image-20220301144110848](../images/gitbookConfig/image-20220301144110848.png)
+![image-20220301144110848](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203012020938.png)
 
 ## 4.Gitbook插件
 
