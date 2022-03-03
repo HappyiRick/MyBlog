@@ -13,7 +13,8 @@
   * [Web](Terminal/Web/README.md)
   * [小程序](Terminal/小程序/README.md)
 * [日有寸进](LittleUP/README.md)
-  * [Gitbook配置，开启写作之路](LittleUP/gitbookConfig.md)
+  * [Gitbook配置，开启写作之路 (上)](LittleUP/gitbookConfig.md)
+  * [Gitbook配置，开启写作之路 (下)](LittleUP/gitbookConfig_2.md)
 
 
 ## 生活
