@@ -12,6 +12,7 @@
 * [日有寸进](LittleUP/README.md)
     * [Gitbook配置，开启写作之路 (上)](LittleUP/gitbookConfig.md)
     * [Gitbook配置，开启写作之路 (下)](LittleUP/gitbookConfig_2.md)
+    * [Github+PicGo+jsDelivr创建稳定图床](LittleUP/picturebedConfig.md)
 
 ## 生活
 * [读书笔记](READNote/README.md)
