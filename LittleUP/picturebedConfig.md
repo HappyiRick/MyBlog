@@ -46,6 +46,10 @@ __在图床上传时，可能会出现重名情况，因此打开时间戳重命
 
 ![image-20220317211840104](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203172118655.png)
 
+### 从相册中获取图片链接
+
+![image-20220317211840104](https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203180929932.png)
+
 ## 总结
 
 __以上，即为构建blog稳定图床的全过程.__
