@@ -4,7 +4,7 @@
 
 ## 技术
 * [终端开发](Terminal/README.md)
-    * [iOS](Terminal/iOS/README.md)\
+    * [iOS](Terminal/iOS/README.md)
         * [iOS代码规范探索实践](Terminal/iOS/iOSCodeGuidePractice.md)
     * [Android](Terminal/Android/README.md)
     * [Web](Terminal/Web/README.md)
