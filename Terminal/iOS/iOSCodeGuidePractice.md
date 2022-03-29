@@ -30,9 +30,9 @@ clang-format --version
 --------
 在 __启动台__ >> __其他__ >> __自动操作__ 中选择 __快速操作__
 
-<img src="../../images/automator.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628663.png">
 
-<img src="../../images/clang_shellconfig.png" width="45%" height="45%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628664.png">
 
 ##### 脚本代码
 
@@ -57,7 +57,7 @@ touch ~/.clang-format
 
 __系统设置__ >> __键盘__ >> __快捷键__ >> __APP快捷键__ >> __Xcode.app__ 添加服务 __Xcode-clang-format__ （之前保存的服务名）设置快捷键  __Control__ + __I__ 
 
-<img src="../../images/clang_shortcut.png" width="40%" height="40%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628666.png">
 
 快去工程里试试吧
 
@@ -74,28 +74,28 @@ __Xcode的文件模板路径一般在下面这个目录__
 
 __所有的模板文件即存在File Template/iOS/Source中__
 
-<img src="../../images/template_path.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628673.png">
 
 
 复制 __source__ 文件夹，重命名为 __CustomTemplate__ ，即为自定义的文件模板分区
 
-<img src="../../images/template_custom.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628671.png">
 
 其中，又分为 __Swift__ 和 __OC__ 以及带XIB文件的文件夹，其中的 __.h__ 和 __.m__ 文件即为模板文件
 
-<img src="../../images/template_custom_file.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628670.png">
 
 以 __OC__ 的 __ViewController__ 为例
 
-<img src="../../images/template_customVC.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628672.png">
 
 新建 __CustomTemplate__ 下的 __ViewController__ 文件
 
-<img src="../../images/template_createFile.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628669.png">
 
 建立好的.m文件
 
-<img src="../../images/tempalte_myTestVC.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628668.png">
 
 通过模板，即可实现代码分区和一部分固定方法的重写实现
 
@@ -108,9 +108,9 @@ __参考资料__
 
 新建 __Code Snippet__
 
-<img src="../../images/codeSnip_create.png" width="50%" height="50%">
+<img src="https://cdn.jsdelivr.net/gh/HappyiRick/Album/Blogimg/202203171628667.png">
 
-通知、Observer、懒加载、创建单例、贝塞尔曲线等格式化代码
+通知、Observer、懒加载、创建单例、贝塞尔曲线等格式化代码，均可通过上述方式存储起来
 
 <!-- endtoc -->
 
